@@ -2,11 +2,11 @@
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 
-Este proyecto es una aplicación de escritorio completa, desarrollada en Python con Tkinter, que simula un Sistema de Punto de Venta (POS). Está diseñada como una solución integral para la gestión de un pequeño negocio, permitiendo controlar ventas, inventario, usuarios, finanzas y reportes de manera eficiente y visual.
+Este proyecto es una aplicación de escritorio de Punto de Venta (POS) completa, desarrollada en Python. El sistema está diseñado para optimizar y automatizar las operaciones diarias de un pequeño negocio minorista, centralizando la gestión de ventas, inventario, finanzas y usuarios en una interfaz gráfica intuitiva y funcional.
 
 ## 🚀 Características Principales
 
-El sistema está dividido en módulos accesibles según el rol del usuario (Administrador o Cajero).
+El sistema se organiza en módulos con control de acceso basado en roles (Administrador y Cajero).
 
 #### **Módulo de Ventas (POS)**
 * **Búsqueda Rápida:** Encuentra productos por código de barras o por coincidencias parciales en el nombre.
@@ -48,15 +48,15 @@ El sistema está dividido en módulos accesibles según el rol del usuario (Admi
 ## 🛠️ Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3
-* **Interfaz Gráfica:** Tkinter (biblioteca nativa de Python)
-* **Base de Datos:** SQLite 3 (integrada en Python)
+* **Interfaz Gráfica:** Tkinter
+* **Base de Datos:** SQLite 3
 * **Gráficos y Visualización:** Matplotlib
 * **Generación de PDF:** FPDF2
 * **Exportación a Excel:** OpenPyXL
 
 ## 🏛️ Decisiones de Arquitectura y Diseño
 
-Se tomaron decisiones específicas durante el desarrollo para garantizar que el sistema fuera eficiente y mantenible.
+El proyecto se construyó sobre principios de software que garantizan su mantenibilidad, eficiencia y escalabilidad.
 
 #### 1. Base de Datos Relacional (SQLite)
 Se eligió **SQLite** porque es una base de datos ligera, sin servidor y basada en un único archivo (`pos.db`). Es la opción ideal para aplicaciones de escritorio como esta, ya que no requiere instalación ni configuración de un servicio de base de datos externo, facilitando la portabilidad y el despliegue.
